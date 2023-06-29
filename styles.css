@@ -56,3 +56,69 @@ html{
     transform: scale(1.1);
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#home{
+    height: 100vh;
+    background: #ffffff;
+}
+
+.home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 4px auto;
+}
+
+.home_title{
+    font-weight: 500;
+    float: left;
+}
+
+.home_description{
+    font-weight: 300;
+    margin-left: -15rem;
+    padding-top: 180px;
+    width: 382px;
+    text-align: left;
+}
+
+.home_img{
+    height: 100%;
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+    margin-left: 10rem;
+}
+
+.home_img img{
+    width: 450px;
+    float: right;
+}
+.btn_container{
+    padding-top: 23rem;
+    width: 7.6rem;
+}
+
+.btn{
+    text-decoration: none;
+    font-weight: 300;
+    border: 2px solid rgb(255, 73, 73);
+    color: #000;
+    padding: 3px 20px;
+    margin-left: -386px;
+    transition: .8s;
+}
+
+.btn:hover{
+    background: rgb(255, 73, 73);
+    color: #fff;
+}
